@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "yarn-workspaces-site1",
+  "builds": [
+    {
+      "src": "/packages/site1/package.json",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/packages/site1/$1",
+      "continue": true
+    }
+  ]
+}

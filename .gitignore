@@ -1,0 +1,9 @@
+.DS_Store
+.vscode
+.idea
+.jshintrc
+.editorconfig
+.env
+.next
+*.log
+npm-debug.log*
