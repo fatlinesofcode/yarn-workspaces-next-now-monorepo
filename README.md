@@ -1,5 +1,5 @@
 # Yarn workspaces example
-# Update to include Now examples for routing with multiple Next.js apps
+## Updated to include Now examples for routing with multiple Next.js apps
 
 ## How to use
 
